@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/*   Header Section Start  */
+.nav{
+    font-size: 12px;
+    font-family: "Raleway",sans-serif;
+    background: #231f20;
+}
+.nav span{
+ font-size: 12px;
+ padding: 0px 10px;
+}
+@media screen and (max-width:500px) {
+    .nav{
+        text-align: center;
+    }
+
+}
+/*   Header Section End  */
+
+/*   Search Bar End  */
+.brand .lear-more{
+    position: relative;
+    top:-15px;
+    color: rgb(185, 161, 22);
+}
+.brand .container-fluid .form{
+    color:#555;
+    display: flex;
+}
+.brand .container-fluid .form input[type="search"]{
+    border:none;
+    background:#e7e7e7;
+    margin: 0px;
+    padding: 8px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+.brand .container-fluid button[type="submit"]{
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 2px solid transparent;
+    background:#e7e7e7;
+}
+/*  Search Bar End  */
+
+.menu .container .bold ul>li>a{
+ list-style: none;
+ text-decoration: none;
+ color:black;
+}
+.menu .container .bold .list::after{
+    content: '|';
+    font-weight: 700;
+    font-size: 12px;
+    position: relative;
+    top:-2px;
+    padding:0px 13px;
+}
+.menu .container .bold ul::after ,
+.menu .container .bold ul::before{
+    content: 'fe';
+    display: inline-block;
+}
